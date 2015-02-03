@@ -1,0 +1,120 @@
+    font-family: "Times New Roman", Times, serif;
+    color: #3ec5d8;
+}
+.mainContainer {
+    float: none;
+    border: 1px solid #61d9ea;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    width: 700px;
+    height: 430px;
+    padding: 45px 0 0 55px;
+    margin: auto;
+    margin-top: 50px;
+}
+.drawing {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #61d9ea;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+table {
+    margin-left: 4px;
+}
+.title {
+    margin: 20px 10px 20px 226px;
+}
+.mainBtn, .letterBtn {
+    color: #fdfdfd;
+    font-size: 12px;
+    background-color: #61d9ea;
+    border-color: #a8f3fe;
+    box-shadow: 0 2px 0 #a8f3fe inset;
+    border: 1px solid #a8f3fe;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.mainBtn {
+    width: 100px;
+    height: 30px;
+}
+.clearScore {
+    margin-left: 19px;
+}
+.letterBtn {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.wrongLetterClass {
+    background-color: #FFC691;
+    border-color: #FFE1C6;
+    box-shadow: 0 2px 0 #FFE1C6 inset;
+    border: 1px solid #FFE1C6;
+}
+.guessedLetterClass {
+    background-color: #a8f3fe;
+    border-color: #61d9ea;
+    box-shadow: 0 2px 0 #61d9ea inset;
+    border: 1px solid #61d9ea;
+}
+.letterSpacing {
+    letter-spacing: 6px;
+}
+.btns, .word {
+    margin: 20px 10px 20px 10px;
+}
+.gameContainer, .scoreContainer {
+    float: left;
+}
+.gameContainer {
+    width: 400px;
+}
+.yourScoreContainer {
+    margin: 26px 0px 30px 0px;
+}
+.yourScore, .score {
+    display: inline;
+    font-weight: bold;
+}
+.alertContainer {
+     height: 35px;
+}
+.alert {
+    padding: 10px 20px 0 20px;
+    margin-left: 162px;
+    color: #fff;
+    background-color: #FFC691;
+    border-color: #FFE1C6;
+    border-radius: 7px;
+    height: 30px;
+    width: 287px;
+}
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
