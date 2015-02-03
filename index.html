@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Hangman Game</title>
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="mainContainer">
+        <div><h3 class="title">The Hangman Game</h3></div>
+        <div class="alertContainer"></div>
+        <div class ="gameContainer">
+            <div class="btns">
+                <input type ="button" class="newGame mainBtn" value="New Game"/>
+                <input type ="button" class="clearScore mainBtn" value="Clear Score"/>
+            </div>
+            <div class="word"></div>
+            <div class="letters">
+                <table>
+                    <tr>
+                        <td><input type="button" value="A" class="letterBtn"/></td>
+                        <td><input type="button" value="B" class="letterBtn"/></td>
+                        <td><input type="button" value="C" class="letterBtn"/></td>
+                        <td><input type="button" value="D" class="letterBtn"/></td>
+                        <td><input type="button" value="E" class="letterBtn"/></td>
+                        <td><input type="button" value="F" class="letterBtn"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="G" class="letterBtn"/></td>
+                        <td><input type="button" value="H" class="letterBtn"/></td>
+                        <td><input type="button" value="I" class="letterBtn"/></td>
+                        <td><input type="button" value="J" class="letterBtn"/></td>
+                        <td><input type="button" value="K" class="letterBtn"/></td>
+                        <td><input type="button" value="L" class="letterBtn"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="M" class="letterBtn"/></td>
+                        <td><input type="button" value="N" class="letterBtn"/></td>
+                        <td><input type="button" value="O" class="letterBtn"/></td>
+                        <td><input type="button" value="P" class="letterBtn"/></td>
+                        <td><input type="button" value="Q" class="letterBtn"/></td>
+                        <td><input type="button" value="R" class="letterBtn"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="S" class="letterBtn"/></td>
+                        <td><input type="button" value="T" class="letterBtn"/></td>
+                        <td><input type="button" value="U" class="letterBtn"/></td>
+                        <td><input type="button" value="V" class="letterBtn"/></td>
+                        <td><input type="button" value="W" class="letterBtn"/></td>
+                        <td><input type="button" value="X" class="letterBtn"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Y" class="letterBtn"/></td>
+                        <td><input type="button" value="Z" class="letterBtn"/></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="scoreContainer">
+            <div class="yourScoreContainer">
+                <p class="yourScore">Your score is:</p>
+                <span class="score">0</span>
+            </div>
+            <canvas class="drawing"></canvas>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+    <script src="hangman.js"></script>
+
+</body>
+</html>
